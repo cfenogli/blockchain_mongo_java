@@ -17,7 +17,7 @@ public static void main(String[] args) {
 System.out.println("Hello world!");
 
 //Replace dbstring with the connection string from your database
-String dbstring = "mongodb://DAVE:DAVE@cluster0-shard-00-00-0gdb9.mongodb.net:27017,cluster0-shard-00-01-0gdb9.mongodb.net:27017,cluster0-shard-00-02-0gdb9.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority";
+String dbstring = "mongodb://<userName>:<Password>@cluster0-shard-00-00-0gdb9.mongodb.net:27017,cluster0-shard-00-01-0gdb9.mongodb.net:27017,cluster0-shard-00-02-0gdb9.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 MongoClientURI uri = new MongoClientURI(dbstring);
 
